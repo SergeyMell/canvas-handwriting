@@ -78,6 +78,7 @@ function drawProcess(ctx: CanvasRenderingContext2D, e: MouseEvent) {
         /**
          *  This is a thick line from the first part of article
          *  {@link https://code.tutsplus.com/tutorials/ios-sdk-advanced-freehand-drawing-techniques--mobile-15602}
+         *  Not needed in production mode
          */
         drawThickCurve(ctx, points);
 
